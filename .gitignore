@@ -1,0 +1,6 @@
+*.suo
+
+obj
+
+/OpapPsdSplitter/bin/Debug
+*.user
