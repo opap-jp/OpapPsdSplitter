@@ -19,12 +19,13 @@ namespace OpapPsdSplitter
             bool opt_opap_anime = false;
             bool opt_show = false;
             string opt_outdir_prefix = "out-";
+            string opt_encoding_name = "shift_jis";
 
             for (int i = 0; i < args.Length; i++)
             {
                 if (args[i].StartsWith("-"))
                 {
-                    //TODO: もっと綺麗にする
+                    //TODO: もっと綺麗にする（MITライセンスで使えるgetopt的なのはないか？）
                     switch (args[i].Substring(1))
                     {
                         case "r":
@@ -40,6 +41,10 @@ namespace OpapPsdSplitter
                             if (args[i].StartsWith("--outdir-prefix="))
                             {
                                 opt_outdir_prefix = args[i].Substring("--outdir-prefix=".Length);
+                            }
+                            else if (args[i].StartsWith("--non-unicode-encoding="))
+                            {
+                                opt_encoding_name = args[i].Substring("--non-unicode-encoding=".Length);
                             }
                             else
                             {
@@ -98,10 +103,12 @@ namespace OpapPsdSplitter
 
 
             //処理を行う
+            Encoding enc = Encoding.GetEncoding(opt_encoding_name);
+
             psd_files_uniq.ForEach(f =>
             {
                 Console.WriteLine(f);
-                PsdSplitter ps = new PsdSplitter(f);
+                PsdSplitter ps = new PsdSplitter(f, enc);
                 ps.SplitAnimeLayer = opt_opap_anime;
                 ps.OutputDirPrefix = opt_outdir_prefix;
                 ps.VisibleTopLevelGroup = opt_show;
@@ -128,6 +135,9 @@ namespace OpapPsdSplitter
             Console.WriteLine("  --outdir-prefix=PREFIX");
             Console.WriteLine("         出力するフォルダ名の先頭に付けるプリフィクスを指定");
             Console.WriteLine("         します。規定値は out- です。引用符は使用できません。");
+            Console.WriteLine("  --non-unicode-encoding=ENCODING");
+            Console.WriteLine("         非ユニコードのレイヤ名のエンコーディングを指定します。");
+            Console.WriteLine("         規定値は shift_jisです。引用符は使用できません。");
 
 
 
