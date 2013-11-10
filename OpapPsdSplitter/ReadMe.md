@@ -1,55 +1,55 @@
 OpapPsdSplitter
 ======================
 
-PSD‚ðƒgƒbƒvƒŒƒxƒ‹‚ÌƒŒƒCƒ„ƒOƒ‹[ƒv‚Å•ªŠ„‚µ‚Ü‚·B
+PSDã‚’ãƒˆãƒƒãƒ—ãƒ¬ãƒ™ãƒ«ã®ãƒ¬ã‚¤ãƒ¤ã‚°ãƒ«ãƒ¼ãƒ—ã§åˆ†å‰²ã—ã¾ã™ã€‚
 
 
-Žg‚¢•û
+ä½¿ã„æ–¹
 -----------
 
-OpapPsdSplitter.exe [ƒIƒvƒVƒ‡ƒ“]... [ƒtƒ@ƒCƒ‹]...
+OpapPsdSplitter.exe [ã‚ªãƒ—ã‚·ãƒ§ãƒ³]... [ãƒ•ã‚¡ã‚¤ãƒ«]...
 
-PSDƒtƒ@ƒCƒ‹‚ðƒgƒbƒvƒŒƒxƒ‹‚ÌƒŒƒCƒ„[ƒOƒ‹[ƒv’PˆÊ‚Å•ªŠ„‚µ‚Ü‚·B
-Œ³‚Ìƒtƒ@ƒCƒ‹‚É‚Í‰e‹¿‚ð—^‚¦‚Ü‚¹‚ñB
+PSDãƒ•ã‚¡ã‚¤ãƒ«ã‚’ãƒˆãƒƒãƒ—ãƒ¬ãƒ™ãƒ«ã®ãƒ¬ã‚¤ãƒ¤ãƒ¼ã‚°ãƒ«ãƒ¼ãƒ—å˜ä½ã§åˆ†å‰²ã—ã¾ã™ã€‚
+å…ƒã®ãƒ•ã‚¡ã‚¤ãƒ«ã«ã¯å½±éŸ¿ã‚’ä¸Žãˆã¾ã›ã‚“ã€‚
 
-  -r     Žw’è‚µ‚½ƒfƒBƒŒƒNƒgƒŠ‹y‚ÑƒTƒuƒfƒBƒŒƒNƒgƒŠ“à‚É‘¶Ý‚·‚é
-         psdƒtƒ@ƒCƒ‹‚ðÄ‹A“I‚ÉŒŸõ‚µ‚ÄA‚·‚×‚Äˆ—‚µ‚Ü‚·B
-  -o     OPAP-JPŽd—l‚ÌƒŒƒCƒ„\¬‚É‚¨‚¢‚Ä“®‰æƒŒƒCƒ„i@ƒ}[ƒN‚Å
-         Žn‚Ü‚é–¼Ì‚ÌƒŒƒCƒ„j‚ÉŠÜ‚Ü‚ê‚éƒTƒuƒŒƒCƒ„ƒOƒ‹[ƒv‚ð
-         “WŠJ‚µ‚Ü‚·B
-  -s     ƒgƒbƒvƒŒƒxƒ‹‚ÌƒŒƒCƒ„ƒOƒ‹[ƒv‚ª”ñ•\Ž¦ó‘Ô‚É‚È‚Á‚Ä‚¢‚éê‡
-         •\Ž¦ó‘Ô‚É•ÏX‚·‚é
+  -r     æŒ‡å®šã—ãŸãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªåŠã³ã‚µãƒ–ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªå†…ã«å­˜åœ¨ã™ã‚‹
+         psdãƒ•ã‚¡ã‚¤ãƒ«ã‚’å†å¸°çš„ã«æ¤œç´¢ã—ã¦ã€ã™ã¹ã¦å‡¦ç†ã—ã¾ã™ã€‚
+  -o     OPAP-JPä»•æ§˜ã®ãƒ¬ã‚¤ãƒ¤æ§‹æˆã«ãŠã„ã¦å‹•ç”»ãƒ¬ã‚¤ãƒ¤ï¼ˆ@ãƒžãƒ¼ã‚¯ã§
+         å§‹ã¾ã‚‹åç§°ã®ãƒ¬ã‚¤ãƒ¤ï¼‰ã«å«ã¾ã‚Œã‚‹ã‚µãƒ–ãƒ¬ã‚¤ãƒ¤ã‚°ãƒ«ãƒ¼ãƒ—ã‚’
+         å±•é–‹ã—ã¾ã™ã€‚
+  -s     ãƒˆãƒƒãƒ—ãƒ¬ãƒ™ãƒ«ã®ãƒ¬ã‚¤ãƒ¤ã‚°ãƒ«ãƒ¼ãƒ—ãŒéžè¡¨ç¤ºçŠ¶æ…‹ã«ãªã£ã¦ã„ã‚‹å ´åˆ
+         è¡¨ç¤ºçŠ¶æ…‹ã«å¤‰æ›´ã™ã‚‹
   --outdir-prefix=PREFIX
-         o—Í‚·‚éƒtƒHƒ‹ƒ_–¼‚Ìæ“ª‚É•t‚¯‚éƒvƒŠƒtƒBƒNƒX‚ðŽw’è
-         ‚µ‚Ü‚·B‹K’è’l‚Í out- ‚Å‚·Bˆø—p•„‚ÍŽg—p‚Å‚«‚Ü‚¹‚ñB
+         å‡ºåŠ›ã™ã‚‹ãƒ•ã‚©ãƒ«ãƒ€åã®å…ˆé ­ã«ä»˜ã‘ã‚‹ãƒ—ãƒªãƒ•ã‚£ã‚¯ã‚¹ã‚’æŒ‡å®š
+         ã—ã¾ã™ã€‚è¦å®šå€¤ã¯ out- ã§ã™ã€‚å¼•ç”¨ç¬¦ã¯ä½¿ç”¨ã§ãã¾ã›ã‚“ã€‚
 
 
 
-Žg‚¢•û‚Ì—á
+ä½¿ã„æ–¹ã®ä¾‹
 -----------
 
 OpapPsdSplitter.exe -o -s aaaa.psd
 
-out-aaaa.psdƒtƒHƒ‹ƒ_“à‚ÉAaaaa.psd‚ðƒgƒbƒvƒŒƒxƒ‹‚ÌƒŒƒCƒ„ƒOƒ‹[ƒv‚Å•ªŠ„‚µ‚½
-psdƒtƒ@ƒCƒ‹‚ªo—Í‚³‚ê‚Ü‚·B
+out-aaaa.psdãƒ•ã‚©ãƒ«ãƒ€å†…ã«ã€aaaa.psdã‚’ãƒˆãƒƒãƒ—ãƒ¬ãƒ™ãƒ«ã®ãƒ¬ã‚¤ãƒ¤ã‚°ãƒ«ãƒ¼ãƒ—ã§åˆ†å‰²ã—ãŸ
+psdãƒ•ã‚¡ã‚¤ãƒ«ãŒå‡ºåŠ›ã•ã‚Œã¾ã™ã€‚
 
 
 OpapPsdSplitter.exe -o -s -r .
 
-Œ»Ý‚Ìì‹ÆƒfƒBƒŒƒNƒgƒŠˆÈ‰º‚Ìpsdƒtƒ@ƒCƒ‹‚ðŒŸõ‚µA‚»‚ê‚¼‚ê‚É‘Î‚µ‚Ä•ªŠ„ˆ—‚ð
-s‚¢‚Ü‚·B
+ç¾åœ¨ã®ä½œæ¥­ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªä»¥ä¸‹ã®psdãƒ•ã‚¡ã‚¤ãƒ«ã‚’æ¤œç´¢ã—ã€ãã‚Œãžã‚Œã«å¯¾ã—ã¦åˆ†å‰²å‡¦ç†ã‚’
+è¡Œã„ã¾ã™ã€‚
 
 
-‚¢‚¸‚ê‚Ìê‡‚Å‚àAu--outdir-prefix=vƒIƒvƒVƒ‡ƒ“‚ÅŽw’è‚³‚ê‚½•¶Žš—ñ‚Ü‚½‚Í
-uout-v‚©‚çŽn‚Ü‚éƒfƒBƒŒƒNƒgƒŠ“à‚Ìpsdƒtƒ@ƒCƒ‹‚Í–³Ž‹‚³‚êAˆ—Œã‚Éã‘‚«
-‚³‚ê‚Ü‚·B
+ã„ãšã‚Œã®å ´åˆã§ã‚‚ã€ã€Œ--outdir-prefix=ã€ã‚ªãƒ—ã‚·ãƒ§ãƒ³ã§æŒ‡å®šã•ã‚ŒãŸæ–‡å­—åˆ—ã¾ãŸã¯
+ã€Œout-ã€ã‹ã‚‰å§‹ã¾ã‚‹ãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªå†…ã®psdãƒ•ã‚¡ã‚¤ãƒ«ã¯ç„¡è¦–ã•ã‚Œã€å‡¦ç†å¾Œã«ä¸Šæ›¸ã
+ã•ã‚Œã¾ã™ã€‚
 
 
-ƒ‰ƒCƒZƒ“ƒX
+ãƒ©ã‚¤ã‚»ãƒ³ã‚¹
 ----------
 
-–{ƒvƒƒOƒ‰ƒ€‚ÍAMITƒ‰ƒCƒZƒ“ƒX‚Ì‰º‚É—˜—p‚ª‹–‘ø‚³‚ê‚Ä‚¢‚Ü‚·B
-Ú×‚ÍALicense.txt‚ð‚²——‰º‚³‚¢B
+æœ¬ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã¯ã€MITãƒ©ã‚¤ã‚»ãƒ³ã‚¹ã®ä¸‹ã«åˆ©ç”¨ãŒè¨±è«¾ã•ã‚Œã¦ã„ã¾ã™ã€‚
+è©³ç´°ã¯ã€License.txtã‚’ã”è¦§ä¸‹ã•ã„ã€‚
 
 Copyright (C) 2013 Butaman-kun.
 
