@@ -52,6 +52,6 @@ OpapPsdSplitter.exe -o -s -r .
 本プログラムは、MITライセンスの下に利用が許諾されています。
 詳細は、License.txtをご覧下さい。
 
-Copyright (C) 2013 Butaman-kun.
+Copyright (C) 2013 Butameron.
 
 
