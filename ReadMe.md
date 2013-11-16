@@ -31,13 +31,13 @@ PSDファイルをトップレベルのレイヤーグループ単位で分割�
 使い方の例
 -----------
 
-OpapPsdSplitter.exe -o -s aaaa.psd
+OpapPsdSplitter.exe -o -e aaaa.psd
 
 out-aaaa.psdフォルダ内に、aaaa.psdをトップレベルのレイヤグループで分割した
 psdファイルが出力されます。
 
 
-OpapPsdSplitter.exe -o -s -r .
+OpapPsdSplitter.exe -o -e -r .
 
 現在の作業ディレクトリ以下のpsdファイルを検索し、それぞれに対して分割処理を
 行います。
