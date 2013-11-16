@@ -130,7 +130,7 @@ namespace OpapPsdSplitter
             Console.WriteLine("  -o     OPAP-JP仕様のレイヤ構成において動画レイヤ（@マークで");
             Console.WriteLine("         始まる名称のレイヤ）に含まれるサブレイヤグループを");
             Console.WriteLine("         展開します。");
-            Console.WriteLine("  -s     トップレベルのレイヤグループが非表示状態になっている場合");
+            Console.WriteLine("  -e     トップレベルのレイヤグループが非表示状態になっている場合");
             Console.WriteLine("         表示状態に変更する");
             Console.WriteLine("  --outdir-prefix=PREFIX");
             Console.WriteLine("         出力するフォルダ名の先頭に付けるプリフィクスを指定");
